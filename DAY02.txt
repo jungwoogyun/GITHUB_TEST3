@@ -1,0 +1,34 @@
+DAY02
+GITHUB 기본 : github.com
+원격 RR 
+1 GIT -> GITHUB
+git init
+aaa파일 생성 -> git add * -> git commit -m "V0.0"
+git branch -> * master (확인작업)
+git branch -M main (new branch 생성)
+git branch -> * main (확인)
+git remote -v 
+git remote add origin 
+git remote -v
+git push origin
+git push --set-upstream origin main --> github창 뜨면 sign in -> authorize 해서 패스워드 입력     
+
+2. GITHUB -> GIT
+git clone (github에서 내컴퓨터wd로 가져올때)
+git pull
+git fetch
+
+github에서 txt 파일만들고 컴퓨터wd로 불러오기
+your repositories -> code -> 복사
+git clone [code 경로] -> 폴더생성확인
+.git폴더가 있는 위치에서 cmd or 기존 cmd에서 -> cd GITHUB-TEST2
+git pull origin (변경사항 있을 때 받아오는 작업 or local에서 수정된 사항 github에서 새로 저장)
+
+
+3. 요구사항분석 
+USECASE
+유스케이스다이어그램(Systems, Actors, User Cases, Relationships)
+ - Relationships -> 연관관계
+		포함관계(선행되는 쪽으로 화살표방향향하게) <<include>>
+		확장관계(특정상황에서만 실행 확장된 유스케이스쪽으로 화살표방향 향하게) <<extend>>
+		일반화관계(상속관계)
