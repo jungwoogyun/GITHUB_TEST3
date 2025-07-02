@@ -1,3 +1,0 @@
-# GITHUB_TEST3
-
-## GITHUB 협업 테스트 V0.0
